@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+body    {
+    font-family: 'Open Sans';
+}
+#About  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.AboutAxet  {
+    font-weight: 600!important;
+    font-size: 14px;
+    color: #8a7491;
+}
+.aboutImage {
+    width: 800px;
+    height: 530px;
+}
+.aboutUs    {
+    width: 580px;
+    margin-right: 200px;
+}
+.aboutUs p  {
+    font-weight: 300;
+}
+.Who    {
+    font-size: 40px;
+    color: #474747;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.services   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 65px;
+}
+.services h3    {
+    color: #8a7491;
+    margin-bottom: 5px;
+}
+.serviceHeader  {
+    text-align: center;
+}
+.bigHeader  {
+    font-size: 40px;
+    font-weight: 300;
+    color: #474747;
+    margin-top: 0px;
+}
+.service    {
+    display: flex;
+    margin-top: 60px;
+}
+.service article {
+    background: #FFFFFF;
+    box-shadow: 2px 4px 26px rgb(0 0 0 / 7%);
+    width: 290px;
+    height: 415px;
+    margin-left: 40px;
+    padding: 32px;
+    text-align: center;
+}
+.service div    {
+    width: 120px;
+    height: 120px;
+    background-color: #772D8B;
+    margin: 0 auto;
+}
+.service img{
+margin-top: 20px;
+    justify-self: center;
+}
+.service h3 {
+    margin-top: 120px;
+    color:#565656;
+    font-size: 18px;
+}
+.service p  {
+    margin-top: 30px;
+}
+.footer  {
+    margin-top: 50px;
+    display: flex;
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+}
+.copyright  {
+    text-align: center;
+}
+a   {
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+}
+.footer h5  {
+    font-size: 18px;
+    
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal fade" id="CustomerInformationUpdate" role="dialog">
+        <div class="modal-dialog modal-wrapper" style="width:auto">
+            <!-- Modal content-->
+            <div class="modal-content-wrap">
+                <div class="header-wrap">
+                    <div class=" container closeBtn">
+                        <label>
+                            <a data-dismiss="modal">
+                                <i class="icon">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 8.73729V11.2627H4.83422L11.7858 18.2143L10 20L0 10L10 0L11.7858 1.78575L4.83422 8.73729H20Z" fill="#fff" />
+                                    </svg>
+                                </i>
+                                Close
+                            </a>
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-body p-2 pb-5 pt-3" style="background:#fff">
+                    <div class="container">
+                        <div class="top mt-3">
+                            <h1>Update your Information</h1>
+                            <p>Kindly Update the Following Information</p>
+
+                            <div class="bottom">
+                                <div class="input bordered">
+                                    <input type="text" id="organizationNameSearchInput" placeholder="Title" value="" />
+                                    <label>Title</label>
+                                </div>
+                                <div class="input bordered">
+                                    <input type="text" id="organizationNameSearchInput" placeholder="Enter your Firstname" value="" />
+                                    <label>FirstName</label>
+                                </div>
+                                <div class="input bordered">
+                                    <input type="text" id="organizationNameSearchInput" placeholder="Enter your Midddename" value="" />
+                                    <label>MiddleName</label>
+                                </div>
+                                <div class="input bordered">
+                                    <input type="text" id="organizationNameSearchInput" placeholder="Enter your surname" value="" />
+                                    <label>Surname</label>
+                                </div>
+                                <div class="input bordered">
+                                    <input type="text" id="organizationNameSearchInput" placeholder="Enter your Birthdate" value="" />
+                                    <label>Birthdate</label>
+                                </div>
+                                <div class="input bordered">
+                                    <input type="text" id="organizationNameSearchInput" placeholder="Email address" value="" />
+                                    <label>Email address</label>
+                                </div>
+                                <div class="input bordered">
+                                    <input type="text" id="organizationNameSearchInput" placeholder="Telepone number" value="" />
+                                    <label>Telephone number</label>
+                                </div>
+                                <p>
+                                    <button class="btn btn-primary" id="btnOrganizationSearch" onclick="searchOrganization()"><i class="fa fa-search"></i> &nbsp; Submit</button> &nbsp;
+                                    <img id="loaderOrgSearch" src="~/assets/img/loading.gif" width="30" style="display:none" />
+                                </p>
+
+                            </div>
+                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
